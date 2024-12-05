@@ -1,0 +1,176 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #3700b3;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #6200ea;
+}
+
+.section pre {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+/* Result Boxes */
+.result-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9ff;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.result-box.success {
+    border-color: #4caf50;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.result-box.error {
+    border-color: #f44336;
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Interactive Buttons */
+button {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.primary {
+    background-color: #6200ea;
+    color: #fff;
+}
+
+button.primary:hover {
+    background-color: #3700b3;
+}
+
+button.secondary {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+button.secondary:hover {
+    background-color: #ccc;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+/* Highlighting Matches */
+.highlight {
+    background-color: #ff0;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #6200ea;
+    color: #fff;
+    font-size: 0.9rem;
+}
