@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sequence Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sequence Analysis Tools</h1>
+        <p>Analyze DNA and Protein sequences with advanced features.</p>
+    </header>
+    
+    <main>
+        <!-- Sequence Upload Section -->
+        <section id="upload">
+            <h2>Upload Sequences</h2>
+            <input type="file" id="sequenceFile" accept=".txt" />
+            <textarea id="sequenceInput" placeholder="Paste your sequences here..."></textarea>
+            <button id="processSequences">Process Sequences</button>
+        </section>
+
+        <!-- Sequence Alignment Section -->
+        <section id="alignment">
+            <h2>Sequence Alignment</h2>
+            <div>
+                <label for="alignmentType">Select Alignment Type:</label>
+                <select id="alignmentType">
+                    <option value="global">Global (Needleman-Wunsch)</option>
+                    <option value="local">Local (Smith-Waterman)</option>
+                </select>
+            </div>
+            <textarea id="alignmentSeq1" placeholder="Enter Sequence 1"></textarea>
+            <textarea id="alignmentSeq2" placeholder="Enter Sequence 2"></textarea>
+            <button id="alignSequences">Align Sequences</button>
+            <div id="alignmentResult"></div>
+        </section>
+
+        <!-- Codon Usage Bias Section -->
+        <section id="codonUsage">
+            <h2>Codon Usage Bias</h2>
+            <textarea id="codonSequence" placeholder="Enter a DNA sequence for codon analysis"></textarea>
+            <button id="analyzeCodonUsage">Analyze Codon Usage</button>
+            <div id="codonResult"></div>
+        </section>
+
+        <!-- Motif Search Section -->
+        <section id="motifSearch">
+            <h2>Motif Search</h2>
+            <textarea id="motifSequence" placeholder="Enter a sequence"></textarea>
+            <input type="text" id="motif" placeholder="Enter motif to search (e.g., TATA box)" />
+            <button id="searchMotif">Search Motif</button>
+            <div id="motifResult"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sequence Analysis Project - Developed with JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
